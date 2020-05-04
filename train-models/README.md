@@ -9,7 +9,7 @@ CWD=$(pwd)
 docker run -it --gpus all --rm -v /tmp:/tmp -v $CWD:/tf/notebooks -p 8888:8888 -p 6006:6006 tensorflow/tensorflow:nightly-gpu-py3-jupyter
 ```
 
-Afterwards you should be able to access to the jupyter-notebooks provided in your browser.
+Afterwards you should be able to access to the jupyter-notebooks provided in your browser at [http://127.0.0.1:8888/](http://127.0.0.1:8888/)
 
 ### Additional Information
 
