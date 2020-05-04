@@ -4,7 +4,7 @@
 
 Run a tensforflow docker with gpu, python3 and jupyter-notebook:
 
-```python
+```
 CWD=$(pwd)
 docker run -it --gpus all --rm -v /tmp:/tmp -v $CWD:/tf/notebooks -p 8888:8888 -p 6006:6006 tensorflow/tensorflow:nightly-gpu-py3-jupyter
 ```
