@@ -1,0 +1,7 @@
+version: '3.3'
+
+services:
+  colanet:
+    build: .
+    ports:
+      - 8000:8000

@@ -1,0 +1,28 @@
+extends layout
+
+block layout-content
+  div.View.WelcomeView
+    h1.Banner ColANet: A UAV Collision Avoidance Dataset
+    div.Message
+      div.Title
+        h3 ColANet
+        h1 Dataset for drones
+      span.Details ColANet, a dataset of collisions that aims  to provide <br> a base for training new Machine Learning algorithms <br>that handle the problem of collisions with high efficiency <br> and robustness. We show that using this dataset <br> is easy to construct new neural network models and test them.
+    div.Code
+      div.Title
+        h4 If you use this dataset or scripts to handle your video dataset, please cite:
+      span.Citation
+        code @InProceedings{colanet2020,
+          | author="Dário Pedro, Andrá Mora, João Carvalho, Fábio Azevedo and José Fonseca", <br>
+          | title="ColANet: A UAV Collision Avoidance Dataset", year="2020",<br>
+          | publisher="Springer International Publishing", pages="53--62",<br>
+          | isbn="978-3-030-45124-0} <br>"
+        a(href="https://github.com/dario-pedro/uav-collision-avoidance")
+          span.Grey More information in github!
+    div.NavButtons
+      if isAuthenticated
+        a(href="/user")
+          div.NavButton Just dive in!
+      else
+        a(href="/download_dataset")
+          div.NavButton Download <br> Dataset
