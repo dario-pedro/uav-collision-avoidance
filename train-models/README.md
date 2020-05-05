@@ -1,5 +1,7 @@
 # COLANET Training Models
 
+![Image description](img/cnn_rnn_fnn.png)
+
 ### Requirements:
 
 Run a tensforflow docker with gpu, python3 and jupyter-notebook:
