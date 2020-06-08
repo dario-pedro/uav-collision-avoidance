@@ -31,8 +31,8 @@ The Feature Extractors require files in directories on directories:
 [MobileNetV2.ipynb](MobileNetV2.ipynb) - Jupyter notebook to Train MobileNetV2 Feature Extrator
 
 [MobileNetV2_Feature_Extraction.ipynb](MobileNetV2_Feature_Extraction.ipynb) - Uses a model (for example the MobileNetV2 model) and generate a csv with the features for all images
-  
-[RNN Training.ipynb](RNN Training.ipynb) - Used to Train the RNN+FNN model
+
+[RNN Training.ipynb](RNN_Training.ipynb) - Used to Train the RNN+FNN model
   
 [FullModel.ipynb](FullModel.ipynb) - Uses the Features previously processed to train the FE+RNN+FNN model
 
